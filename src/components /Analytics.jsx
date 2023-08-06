@@ -9,6 +9,11 @@ const Analytics = () => {
             <div>
                 <p>DATA ANALYTICS DASHBOARD</p>
                 <h1>Manage Data Analytics Centrally</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro omnis, 
+                    adipisci rerum iure mollitia ut architecto, 
+                    optio quas excepturi magnam accusamus repellendus voluptates itaque.
+                     Modi maiores voluptatem quia mollitia.
+                </p>
             </div>
 
         </div>
