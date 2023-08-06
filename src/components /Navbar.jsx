@@ -18,6 +18,7 @@ const Navbar = () => {
         <li className='p-4' >About</li>
         <li className='p-4' >Contact</li>
        </ul>
+       {/* hidden on large screens visible on small screens */}
        <div onClick={handleNav} className='block md:hidden'> 
         {/* if else statement */}
         {!nav ? <AiOutlineClose size={30}/>
