@@ -4,8 +4,8 @@ import{ AiOutlineClose, AiOutlineMenu} from 'react-icons/ai' // importing the ic
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
-    const handleNav = () =>{
-        setNav (!nav)
+    const handleNav = () =>{ // creating a function
+        setNav (!nav) //setting the nav to true
     }
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto text-white'>
