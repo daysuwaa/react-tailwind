@@ -14,7 +14,7 @@ const Analytics = () => {
                     optio quas excepturi magnam accusamus repellendus voluptates itaque.
                      Modi maiores voluptatem quia mollitia.
                 </p>
-                <button className='text-[#00df9a] w-[200px] rounded-md my-6 mx-auto py-3 bg-black'>Get Started</button>
+                <button className='text-[#00df9a] w-[200px] rounded-md my-6 mx-auto py-3 md:mx-0 bg-black'>Get Started</button>
             </div>
         </div>
     </div>
