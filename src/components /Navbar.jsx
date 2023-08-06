@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-import{ AiOutlineClose, AiOutlineMenu} from 'react-icons/ai' // importing he icons
+import{ AiOutlineClose, AiOutlineMenu} from 'react-icons/ai' // importing the icons
 
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
     }
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto text-white'>
-       <h1 className='w-full text-3xl font-bold text-green-400'>REACT.</h1>
+       <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
        {/* hidden on small screens but flex on larger screens */}
        <ul className='hidden md:flex'>  
         <li className='p-4' >Home</li> 
@@ -18,7 +18,7 @@ const Navbar = () => {
         <li className='p-4' >About</li>
         <li className='p-4' >Contact</li>
        </ul>
-       {/* hidden on large screens visible on small screens */}
+       {/* visible on small screen but not large */}
        <div onClick={handleNav} className='block md:hidden'> 
         {/* if else statement */}
         {!nav ? <AiOutlineClose size={30}/>
